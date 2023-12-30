@@ -9,6 +9,15 @@
     "jdeploy": {
         "jdk": false,
         "javaVersion": "17",
+        "cheerpj": {
+            "githubPages": {
+                "branchPath": "{{ branch }}",
+                "tagPath": "app",
+                "branch": "gh-pages",
+                "enabled": true
+            },
+            "enabled": true
+        },
         "jar": "target\\test-clock7-1.0-SNAPSHOT.jar",
         "javafx": false,
         "title": "Test Clock7"
